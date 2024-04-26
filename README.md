@@ -1,15 +1,28 @@
-# Sonic RSDK + Oxygen Engine
+# Sonic RSDK + Oxygen Engine (Help Needed)
 
 Aims to mix different Sonic the Hedgehog games into a single big game. Acts as a legal but cheaper version of Sonic Origins for fans that dont want to get scammed.
 
 ![Sonic 1 in Sonic 2](docs/preview.png)
 
-## How it will work.
-Instead of mixing 3 AIR'S Engine (called Oxygen) with the RSDK/Retro engine, or compiling rsdk and 3 air as seperate EXEs to be laucnhed in one window, this will have 3 entities:
-Sonic 3 AIR
-Sonic Hybrid RSDK plus logic from RSDKV4/RSDKV3
-And a custom script runner/executor 
+## How it's gonna work.
+Instead of mixing 3 AIR'S Engine (called Oxygen) with the RSDK/Retro engine, or compiling rsdk and 3 air as seperate EXEs to be laucnhed in one window which is what this project gets confused as, the project will have 3 (main) working parts:
+
+Sonic 3 AIR/Oxygen.
+
+Sonic Hybrid RSDK plus RSDKV4/RSDKV3 (and maybe RSDKV5U).
+
+And a custom script runner/executor.
+
 When sonic 2 ends the Hybrid RSDK entity will send a message to the custom script executing entity which in turn stops running the RSDK stuff & starts running the main script of 3 air
+
+## Completion Status:
+Hybrid-RSDK Debugging/Additons ?% (Hybrid-RSDK is still broken)
+
+
+Sonic 3 AIR (Oxygen) Integration 50% (All the source code is in the repo, but we havent done the neccessary changes yet)
+
+
+Custom Client 0% (debugging Hybrid RSDK is the priority)
 
 ## WARNING: DOES NOT WORK YET!
 Start from here:
@@ -83,6 +96,5 @@ The function `SonicHybridRsdk.Unpack12/DecryptData` was written by Giuseppe Gatt
 * Decompilation by Rubberduckycooly.
 * Hybrid-RSDK by Xeeynamo.
 * Sonic 3 AIR by Eukaryot.
-* Additional stuff by the Retro Engine Modding Discord.
-* Led by Chaphidoesstuff on gamejolt.
-* Main Coding By Pixel-1 Games, SomeRandomPerson_, FGSOFTWARE1 and Twanvanb1
+* Conceived by Chaphidoesstuff aka @CCIGAMES.
+* Main Development By Pixel-1 Games, SomeRandomPerson_, Twanvanb1 (before misunderstanding the project and attempting to delete everything on the github and blocking me for no reasons other than "i dont like it"), FGSOFTWARE1 and more.
